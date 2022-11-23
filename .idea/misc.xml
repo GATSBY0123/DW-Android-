@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/KSC/study06/app/src/main/res/drawable/black_indicator.xml" value="0.1" />
+        <entry key="..\:/KSC/study06/app/src/main/res/drawable/button_back.xml" value="0.2585" />
+        <entry key="..\:/KSC/study06/app/src/main/res/drawable/gray_indicator.xml" value="0.1" />
+        <entry key="..\:/KSC/study06/app/src/main/res/drawable/selector_indicator.xml" value="0.186" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/activity_ex25_join_ok.xml" value="0.36614583333333334" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/activity_ex26_dday.xml" value="0.36614583333333334" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/activity_ex28_item_list.xml" value="0.36614583333333334" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/activity_logo.xml" value="0.36614583333333334" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/asdasd.xml" value="0.3619791666666667" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/ex11_listview_layout.xml" value="0.36614583333333334" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/ex11_listview_layout1.xml" value="0.36614583333333334" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/ex12_spinner_layout.xml" value="0.36614583333333334" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/ex13_switch_layout.xml" value="0.36614583333333334" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/ex14_intent_send_layout.xml" value="0.36614583333333334" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/ex15_sharedpreference_layout.xml" value="0.36614583333333334" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/ex16_sharedpreference2_layout.xml" value="0.36614583333333334" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/ex17_viewpaper_layout.xml" value="0.1" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/ex18_fragment_layout.xml" value="0.36614583333333334" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/ex19_gps_layout.xml" value="0.33" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/ex1_animation_layout.xml" value="0.3605128205128205" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/ex20_join_ok_layout.xml" value="0.36614583333333334" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/ex20_sqlite_join_layout.xml" value="0.36614583333333334" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/ex20_sqlite_login_layout.xml" value="0.36614583333333334" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/ex20_sqlite_main_layout.xml" value="0.36614583333333334" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/ex22_recyclerview_layout.xml" value="0.36614583333333334" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/ex2_gif_layout.xml" value="0.1" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/ex3_video_layout.xml" value="0.36614583333333334" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/ex5_webview_ladyout.xml" value="0.36614583333333334" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/ex7_sms_layout.xml" value="0.36614583333333334" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/ex7_webviewfull_layout.xml" value="0.36614583333333334" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/ex8_gallery_layout.xml" value="0.36614583333333334" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/ex9_imageview_layout.xml" value="0.36614583333333334" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/fragment1.xml" value="0.36614583333333334" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/fragment2.xml" value="0.36614583333333334" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/fragment_layout.xml" value="0.33" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/frame_1.xml" value="0.36614583333333334" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/frame_2.xml" value="0.36614583333333334" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/frame_3.xml" value="0.36614583333333334" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/frame_4.xml" value="0.36614583333333334" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/layout.xml" value="0.36614583333333334" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/layout_ex25_sqlite_join.xml" value="0.36614583333333334" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/map_layout.xml" value="0.33" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/sadsad.xml" value="0.36614583333333334" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/scrollview_layout.xml" value="0.36614583333333334" />
+        <entry key="..\:/KSC/study06/app/src/main/res/layout/tab_layout.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/admin/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_spinner_item.xml" value="0.36614583333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

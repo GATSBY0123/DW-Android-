@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:text="전화번호부"
+                    android:fontFamily="@font/myarirang"
+                    android:textSize="50dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvName1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/myarirang"
+                    android:text="홍길동"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/tvNumber1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:text="01012345678" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/message4"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"/>
+
+                <ImageButton
+                    android:id="@+id/btnTel1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/message2" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvName2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="장영실"
+                    android:fontFamily="@font/myarirang"
+                    android:textColor="@color/black"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/tvNumber2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:text="01012345678" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/message4" />
+
+                <ImageButton
+                    android:id="@+id/btnTel2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/message2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvName3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="이순신"
+                    android:fontFamily="@font/myarirang"
+                    android:textColor="@color/black"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/tvNumber3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:text="01012345678" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/message4"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"/>
+
+                <ImageButton
+                    android:id="@+id/btnTel3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/message2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvName4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="송두선"
+                    android:fontFamily="@font/myarirang"
+                    android:textColor="@color/black"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/tvNumber4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:text="01012345678" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/message4"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"/>
+
+                <ImageButton
+                    android:id="@+id/btnTel4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/message2" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvName5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="정현웅"
+                    android:fontFamily="@font/myarirang"
+                    android:textColor="@color/black"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/tvNumber5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:text="01012345678" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/message4"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"/>
+
+                <ImageButton
+                    android:id="@+id/btnTel5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/message2" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvName6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="송치훈"
+                    android:fontFamily="@font/myarirang"
+                    android:textColor="@color/black"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/tvNumber6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:text="01012345678" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/message4"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"/>
+
+                <ImageButton
+                    android:id="@+id/btnTel6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/message2" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvName7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="구명관"
+                    android:fontFamily="@font/myarirang"
+                    android:textColor="@color/black"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/tvNumber7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:text="01012345678" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/message4"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"/>
+
+                <ImageButton
+                    android:id="@+id/btnTel7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/message2" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvName8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/myarirang"
+                    android:gravity="center"
+                    android:text="남기준"
+                    android:textColor="@color/black"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/tvNumber8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:text="01012345678" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/message4"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"/>
+
+                <ImageButton
+                    android:id="@+id/btnTel8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/message2" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="25dp"
+            android:fontFamily="@font/myyeongnamnu"
+            android:background="#6EE3F7"
+            android:text="op.gg" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:textSize="25dp"
+            android:fontFamily="@font/myyeongnamnu"
+            android:background="#000000"
+            android:text="fow.kr" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="#000093"
+            android:textSize="25dp"
+            android:fontFamily="@font/myyeongnamnu"
+            android:text="lol.ps" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="전적검색 사이트"
+            android:fontFamily="@font/myarirang"
+            android:textColor="#070707"
+            android:textSize="35dp" />
+
+    </LinearLayout>
+</LinearLayout>

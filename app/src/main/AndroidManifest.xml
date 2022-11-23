@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.gatsby.android_study">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <!-- SMS 관련 -->
+    <uses-permission android:name="android.permission.SEND_SMS"></uses-permission>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"></uses-permission>
+    <!-- GPS 관련 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_main"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_main_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Dw202app_all"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name="com.gatsby.android_study.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.gatsby.android_study.LogoActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gatsby.android_study.Ex1AnimationActivity" />
+        <activity android:name="com.gatsby.android_study.Ex2GifActivity" />
+        <activity android:name="com.gatsby.android_study.Ex3VideoActivity" />
+        <activity android:name="com.gatsby.android_study.Ex4MediaActivity" />
+        <activity android:name="com.gatsby.android_study.Ex5WebViewActivity" />
+        <activity android:name="com.gatsby.android_study.Ex5WebViewLolPs" />
+        <activity android:name="com.gatsby.android_study.Ex5WebViewFowKr" />
+        <activity android:name="com.gatsby.android_study.Ex5WebViewOPGG" />
+        <activity android:name="com.gatsby.android_study.Ex6TelActivity" />
+        <activity android:name="com.gatsby.android_study.Ex7SmsActivity" />
+        <activity android:name="com.gatsby.android_study.Ex8GalleryActivity" />
+        <activity android:name="com.gatsby.android_study.Ex9ImageViewActivity" />
+        <activity android:name="com.gatsby.android_study.Ex10PhoneBookActivity" />
+        <activity android:name="com.gatsby.android_study.Ex11ListViewActivity" />
+        <activity android:name="com.gatsby.android_study.Ex12SpinnerActivity" />
+        <activity android:name="com.gatsby.android_study.Ex13SwitchActivity" />
+        <activity android:name="com.gatsby.android_study.Ex14IntentSendActivity" />
+        <activity android:name="com.gatsby.android_study.Ex14IntentReceiveActivity" />
+        <activity android:name="com.gatsby.android_study.Ex15SharedPreferenceActivity" />
+        <activity android:name="com.gatsby.android_study.Ex16SharedPreference2Activity" />
+        <activity android:name="com.gatsby.android_study.Ex17ViewPaperActivity" />
+        <activity android:name="com.gatsby.android_study.Ex18FragmentActivity" />
+        <activity android:name="com.gatsby.android_study.Ex19GpsActivity" />
+        <activity android:name="com.gatsby.android_study.GoogleMapSearchActivity" />
+        <activity android:name="com.gatsby.android_study.Ex20JoinOkActivity" />
+        <activity android:name="com.gatsby.android_study.Ex20SQLiteExJoin" />
+        <activity android:name="com.gatsby.android_study.Ex20SQLiteExLogin" />
+        <activity android:name="com.gatsby.android_study.Ex20SQLiteExMain" />
+        <activity android:name="com.gatsby.android_study.Ex21DDayEx" />
+        <activity android:name="com.gatsby.android_study.Ex22RecyclerViewEx" />
+
+
+    </application>
+
+</manifest>

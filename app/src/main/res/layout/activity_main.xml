@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.gatsby.android_study.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back7"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/myarirang"
+                    android:gravity="center"
+                    android:text="안드로이드 공부예제 모음"
+                    android:textColor="@color/black"
+                    android:textSize="38dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/myarirang"
+                    android:gravity="center"
+                    android:text="1강 : Animation"
+                    android:textColor="@color/black"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btnEx1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/myyeongnamnu"
+                    android:gravity="center"
+                    android:text="예제보기" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="2강 : Gif"
+                    android:fontFamily="@font/myarirang"
+                    android:textColor="@color/black"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btnEx2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:fontFamily="@font/myyeongnamnu"
+                    android:text="예제보기" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="3강 : Video"
+                    android:fontFamily="@font/myarirang"
+                    android:textColor="@color/black"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btnEx3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:fontFamily="@font/myyeongnamnu"
+                    android:text="예제보기" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="4강 : Media"
+                    android:fontFamily="@font/myarirang"
+                    android:textColor="@color/black"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btnEx4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:fontFamily="@font/myyeongnamnu"
+                    android:text="예제보기" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="5강 : WebView"
+                    android:fontFamily="@font/myarirang"
+                    android:textColor="@color/black"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btnEx5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:fontFamily="@font/myyeongnamnu"
+                    android:text="예제보기" />
+
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="6강 : Tel"
+                android:fontFamily="@font/myarirang"
+                android:textColor="@color/black"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/btnEx6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:fontFamily="@font/myyeongnamnu"
+                android:text="예제보기" />
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="7강 : SMS"
+                    android:fontFamily="@font/myarirang"
+                    android:textColor="@color/black"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btnEx7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:fontFamily="@font/myyeongnamnu"
+                    android:text="예제보기" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="8강 : Galary"
+                    android:fontFamily="@font/myarirang"
+                    android:textColor="@color/black"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btnEx8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:fontFamily="@font/myyeongnamnu"
+                    android:text="예제보기" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="9강 : Images"
+                    android:fontFamily="@font/myarirang"
+                    android:textColor="@color/black"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btnEx9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:fontFamily="@font/myyeongnamnu"
+                    android:text="예제보기" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="10강 : PhoneBook"
+                    android:fontFamily="@font/myarirang"
+                    android:textColor="@color/black"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btnEx10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:fontFamily="@font/myyeongnamnu"
+                    android:text="예제보기" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="11강 : ListView"
+                    android:fontFamily="@font/myarirang"
+                    android:textColor="@color/black"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btnEx11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:fontFamily="@font/myyeongnamnu"
+                    android:text="예제보기" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="12강 : Spinner"
+                    android:fontFamily="@font/myarirang"
+                    android:textColor="@color/black"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btnEx12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:fontFamily="@font/myyeongnamnu"
+                    android:text="예제보기" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="13강 : Switch"
+                    android:fontFamily="@font/myarirang"
+                    android:textColor="@color/black"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btnEx13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:fontFamily="@font/myyeongnamnu"
+                    android:text="예제보기" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="14강 : intent"
+                    android:fontFamily="@font/myarirang"
+                    android:textColor="@color/black"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btnEx14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:fontFamily="@font/myyeongnamnu"
+                    android:text="예제보기" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="15강 : SharedPreference"
+                    android:fontFamily="@font/myarirang"
+                    android:textColor="@color/black"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btnEx15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:fontFamily="@font/myyeongnamnu"
+                    android:text="예제보기" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="16강 : SharedPreference2"
+                    android:fontFamily="@font/myarirang"
+                    android:textColor="@color/black"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btnEx16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:fontFamily="@font/myyeongnamnu"
+                    android:text="예제보기" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="17강 : ViewPaper"
+                    android:fontFamily="@font/myarirang"
+                    android:textColor="@color/black"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btnEx17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:fontFamily="@font/myyeongnamnu"
+                    android:text="예제보기" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="18강 : Fragment"
+                    android:fontFamily="@font/myarirang"
+                    android:textColor="@color/black"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btnEx18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:fontFamily="@font/myyeongnamnu"
+                    android:text="예제보기" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="19강 : GPS"
+                    android:fontFamily="@font/myarirang"
+                    android:textColor="@color/black"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btnEx19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:fontFamily="@font/myyeongnamnu"
+                    android:text="예제보기" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="20강 : SQLite"
+                    android:fontFamily="@font/myarirang"
+                    android:textColor="@color/black"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btnEx20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:fontFamily="@font/myyeongnamnu"
+                    android:text="예제보기" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="21강 : D-day"
+                    android:fontFamily="@font/myarirang"
+                    android:textColor="@color/black"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btnEx21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:fontFamily="@font/myyeongnamnu"
+                    android:text="예제보기" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="22강 : RecyclerView"
+                    android:fontFamily="@font/myarirang"
+                    android:textColor="@color/black"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/btnEx22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:fontFamily="@font/myyeongnamnu"
+                    android:text="예제보기" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
